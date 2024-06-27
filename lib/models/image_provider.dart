@@ -28,7 +28,7 @@ class ImageProvider with ChangeNotifier {
     final response = await http.get(
       Uri.parse('https://api.pexels.com/v1/photos/$id'),
       headers: {
-        'Authorization': '8FFUaJCPvIdmVseszETUua6AsaeZGRpThFVdJynqPWvC5Ycmqo22Tx0z',
+        'Authorization': 'Provide Your Pexels API Here',
       },
     );
 
